@@ -88,7 +88,7 @@ ans = ans * (exp)/(exp) ;
 
 /*  generateRow :
 
-    T : 0(n^2)
+    T : 0(n)
     S : 0(1)
 
 */
@@ -109,3 +109,10 @@ public:
         return ans;
     }
 };
+
+/*  generate:
+
+    T : 0(n^2)
+    S : 0(1)
+
+*/
