@@ -3,21 +3,7 @@ using namespace std;
 
 int main()
 {
-    if (0)
-    {
-        cout << 1 << endl;
-    }
-    else if (1 < 2)
-    {
-        cout << 2;
-    }
-    else if (2)
-    {
-        cout << 3;
-    }
-    else
-    {
-        cout << "ok";
-    }
+    cout << INT_MAX << endl;
+    cout << INT_MIN;
     return 0;
 }
