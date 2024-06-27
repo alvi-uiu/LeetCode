@@ -18,7 +18,7 @@ public:
             if (rev < min_limit || (rev == min_limit && lastDgt < -8))
                 return 0;
 
-            rev = rev * 10 + lastDgt;
+            rev = rev * 10 + lastDgt; // rev
             x /= 10;
         }
 
